@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/main.css">
+<meta name="viewport" content="width=device-width">
+<title>Honey Apricot Cupcakes</title>
+<meta name= "description" content="party cupcakes">
+<meta name= "author" content="Sydney Voss-Kernan">
+</head>
+
+<style>
+figcaption,
+figure,
+header,
+section {
+  display: block;
+  }
+
+
+body,
+dd,
+dl,
+figure {
+  margin: 0;
+  }
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  }
+
+
+
+
+
+body {
+  max-width: 43em;
+  color: #777777;
+  background: #fff;
+  padding: 0 1em;
+  margin: auto;
+  }
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: -1em;
+  }
+
+nav li {
+  display: inline;
+  }
+
+nav li:first-child {
+  margin-right: 1em;
+  }
+
+nav a {
+  display: inline-block;
+  font:"Trebuchet MS", sans-serif;
+  color: #F6A1AC;
+  text-decoration: none;
+  padding: .6em;
+  margin-top: -1em;
+  margin-bottom: -1em;
+  margin-left: -1em;
+  }
+
+section {
+  clear: left;
+  padding-top: .8em;
+  }
+
+header {
+  background:#fff;
+  padding: 0 0 0;
+}
+
+header h2 {
+  color:#777777;
+  font: "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .01em;
+  margin-top: .6em;
+  margin-bottom: -.5em;
+  margin-left: 1.1em
+  }
+
+section h3 {
+  color:#777777;
+  border-bottom: 3px solid #f6a1ac;
+  font: "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  margin-top: 0;
+  margin-bottom: -1em;
+  margin-left: 1.5em
+  }
+
+h3.space1 {
+  margin-top: 2.5em;
+  }
+
+section h4 {
+  color:#777777;
+  font: "Trebuchet MS", sans-serif;
+  letter-spacing: .05em;
+  margin-top: 0;
+  margin-left: 2em
+  }
+h4.directionsspace {
+  margin-top: 1.5em;
+  }
+h4.directionsspace2 {
+  margin-top: 1.5em;
+  }
+
+section ol,
+section ul {
+  color:#777777;
+  padding-left: 2.5em;
+  margin-bottom: -1em;
+  }
+
+section ul.jumplink1 {
+  margin-bottom: 1em;
+  margin-left: -2em;
+}
+
+section li {
+  padding: .3em .5em .2em 0em ;
+  margin: 0 1.2em;
+  }
+
+
+.jump-link-top {
+  text-align: center;
+  }
+
+.jump-link-top a {
+  display: block;
+  font: 1.1em monospace;
+  text-decoration: none;
+  padding: 1.2em;
+  }
+
+.jump-link-text {
+  text-decoration: underline;
+  color:#F6A1AC;
+  }
+
+footer {
+  text-align: center;
+  color:#777777;
+  font: .71em "Trebuchet MS", sans-serif;
+}
+
+
+
+
+
+/* max-width: 60em / wider screen layout */
+
+@media (min-width: 60em) {
+
+  header,
+  section {
+    float: left;
+    width:100%;
+    }
+
+    .text {
+      list-style: none;
+      padding-left: 0;
+      float: left;
+    }
+
+    .text .col {
+      display: inline-block;
+      width: 50%;
+      float: left;
+    }
+
+  header {
+    width: 100%;
+    }
+
+
+
+      #ingredients1 {
+        width: 100%;
+        padding:0em;
+        margin-top:1.5em;
+        }
+
+        #ingredients2 {
+          width: 100%;
+          padding:0em;
+          margin-top:1.5em;
+        }
+
+      #directions1 {
+        width: 100%;
+        padding:0em;
+        }
+
+        #directions2 {
+          width: 100%;
+          padding:0em;
+          }
+
+      header dl {
+        margin-bottom: 1.5em;
+        }
+
+        footer {
+          text-align: center;
+          margin-top: 70em;
+          clear: both;
+
+        }
+
+  nav,
+  .jump-link-top {
+    /*  hide only visually, but have it available for screen readers */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+    padding: 0;
+    border: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    /* clear floats */
+    clear: both;
+    }
+
+}
+</style>
+
+
+
+ <body itemscope itemtype="http://schema.org/Recipe">
+
+
+
+ <figure class="full-width" id="product">
+   <img alt="Honey Apricot Cupcakes" src="http://bestfriendsforfrosting.com/wp-content/uploads/2013/05/Spring-Honey-Watercolor-Cupcakes-Horizontal.jpg" itemprop="image">
+   <figcaption>
+   <a href="http://www.foodnetwork.com/recipes/alton-brown/guacamole-recipe.html">
+   </a>
+   </figcaption>
+ </figure>
+
+
+
+   <header class="full-width">
+   <h2 itemprop="name">Honey Apricot Cupcakes</h2>
+
+ </header>
+
+
+ <section>
+ <nav>
+   <ul class="jumplink1">
+     <li><a href="#ingredients1">Cupcake — Ingredients</a></li>
+     <li><a href="#directions1"> Cupcake — Step by step</a></li>
+     <li><a href="#ingredients2">Frosting — Ingredients </a></li>
+     <li><a href="#directions2"> Frosting — Step by step</a></li>
+   </ul>
+ </nav>
+   </section>
+
+ <section>
+   <h3>Orange Sented Cupcakes</h3>
+   <ul itemprop="recipeIngredient">
+   </ul>
+   </section>
+
+<ul class="text" >
+  <li class="col">
+ <section id="ingredients1">
+   <h4> Ingredients</h4>
+   <ul itemprop="recipeIngredient">
+         <li>1 cup unsalted butter, softened</li>
+         <li>1 cup unsalted butter, softened</li>
+         <li>6 egg yolks</li>
+         <li>1 teaspoon pure vanilla extract</li>
+         <li>zest of one orange</li>
+         <li>1 tablespoon fresh orange juice</li>
+         <li>3 cups cake flour, sifted</li>
+         <li>1 tablespoon plus 1/2 teaspoon baking powder</li>
+         <li>3/4 teaspoon salt</li>
+         <li>1 1/2 cups whole milk</li>
+         </ul>
+ </section>
+ </li>
+
+<li class="col">
+ <section id="directions1">
+   <h4 class="directionsspace2">Directions</h4>
+   <ol itemprop="recipeInstructions">
+     <li>Preheat oven to 350 degrees. Line cupcake pans with cupcake liners, and set aside.</li>
+     <li>Sift together dry ingredients in a medium bowl, and set aside.</li>
+     <li>In the bowl of an electric stand mixer, beat butter on medium speed with a paddle attachment. Pour in granulated sugar and mix until light and fluffy (about 5-8 minutes).</li>
+     <li>With your mixer on medium-low, gradually add in your egg yolks, vanilla, zest, and orange juice. Turn mixer off, and scrape the bottom of the bowl with a rubber spatula.</li>
+     <li>With the mixer on low, carefully alternate your dry ingredients with the milk, ending and beginning with the flour mixture.</li>
+     <li>Divide batter evenly among the cupcake liners, filling them about 2/3 of the way. Rotate pans halfway through baking. Bake in the oven until done, about 20 minutes, or until the tops are a subtle golden brown. Cool on a wire rack.</li>
+   </ol>
+ </section>
+
+
+ </li>
+ </ul>
+
+
+
+ <section>
+   <h3 class="space1">Honey Buttercream</h3>
+   <ul itemprop="recipeIngredient">
+   </ul>
+   </section>
+
+<ul class="text">
+<li class="col">
+ <section id="ingredients2">
+   <h4> Ingredients</h4>
+
+
+
+ <ul itemprop="recipeIngredient">
+         <li>1 cup unsalted butter, softened</li>
+         <li>3 1/2- 4 cups powdered sugar</li>
+         <li>1 teaspoon pure vanilla extract</li>
+         <li>2 tablespoons whole milk</li>
+         <li>1/4 cup honey, or to taste</li>
+         </ul>
+ </section>
+</li>
+
+<li class="col">
+
+   <section id="directions2">
+   <h4 class="directionsspace">Directions</h4>
+   <ol itemprop="recipeInstructions">
+     <li>In the bowl of an electric stand mixer, beat butter with a paddle attachment for 4 to 5 minutes.</li>
+     <li>Turn the mixer to low, and gradually add in the remaining ingredients. Once incorporated, continue to mix on medium speed until light and fluffy. Adjust amounts for desired consistency and sweetness.
+ </li>
+     <li>Pipe icing onto cupcakes, and decorate as desired.</li>
+   </ol>
+ </section>
+ </li>
+ </ul>
+
+   <br>
+   <br>
+   <br>
+
+
+
+
+
+
+   <div class="jump-link-top">
+   <a href="#" title="Back to Top">
+     <span class="jump-link-text">Back to Top</span></a>
+ </div>
+
+ <footer>© Copyright 2016 http://bestfriendsforfrosting.com/</footer>
+
+   </body>
+ </html>
